@@ -18,7 +18,7 @@
    	     p,h1{
    	     	display:inline-block;
    	     	width:400px;
-   	     	font-size:18px;
+   	     	font-size:30px;
    	     	font-weight:200px;
 
    	     }
@@ -33,9 +33,10 @@
    	     }
    	     .info{
    	     	background-color:#ff337a;
-   	     	color:#000;
+   	     	color:white;
    	     	padding:10px;
    	     	text-align: center;
+			font-weight: bold;
    	     }
    	     body{
    	     	font-family:Helvetica,Arial,Sans-serif;
@@ -64,27 +65,35 @@
           
              
    	      }
+
+		  .card{
+			background: rgb(244, 242, 242);
+			margin:1rem;
+			padding: 2rem;
+			border-radius:4px;
+			box-shadow: 10px 5px 10px gray ;
+		  }
    	     
    </style>
 </head>
 <body>
 <header>
 	 <h1 class="nombre">
-	  	CV Oscar Raga
+	  	 Oscar Raga
 	 </h1> 
-  <p>Web developer</p>
+  <p class="nombre">Web developer</p>
 </header>
   
 	 <!-- <div class="info">
 	  	  Over 2 years of experience building web application, frontend and backend developer.
 	  </div>-->
     <div class="info">
-        1 año de experiencia como programador  
+        3 años de experiencia como programador web
     </div>
 	<section>
 		<div class="portafolio">
 			 <div>
-			 <div class="acomodar" style="vertical-align:top;">
+			 <div class="acomodar card" style="vertical-align:top;">
 			 	<h3 id="sub-edu">Education</h3>
 			 	  <div>
 			 	  	<dl>
@@ -99,7 +108,7 @@
 			 	 	 <img src="img/fotoperfil.jpeg" alt="fotografia" id="foto" width="180">
 			 	 </div>
 			 </div>
-			 <div>
+			 <div class="card">
 			 	 <h3 id="sub-exp">Profesional Experience</h3>
 			 	  <div>
 			 	  	<dl>
@@ -109,7 +118,7 @@
 			 	  	</dl>
 			 	  </div>
 			 </div>
-          <div>
+          <div class="card">
          <h3 id="sub-edu">Awards</h3>
           <div>
             <dl>
@@ -122,7 +131,7 @@
           </div>
 
        </div>
-			 <div>
+			 <div class="card">
 			 	 <h3 id="sub-edu">Skills</h3>
 			 	  <ul>
 			 	  	<li>JAVA</li>
@@ -130,10 +139,12 @@
             <li>MySQL</li>
             <li>HTML</li>
             <li>CSS</li>
+            <li>Git</li> 
+            <li>React</li> 
 			 	  </ul>
 
 			 </div>
-			  <div>
+			  <div class="card" style="margin-bottom:40px;">
 			 	 <h3 id="sub-edu">Social Accounts</h3>
 			 	  <ul>
 			 	  	<li><a href="#" target="_blank">Facebook</a></li>
